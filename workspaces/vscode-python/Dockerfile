@@ -1,5 +1,5 @@
 FROM prairielearn/workspace-vscode-base:latest
-ARG CACHEBUST=2025-09-15-14-16-01
+ARG CACHEBUST=2026-02-15-14-27-15
 
 # Run the rest of the build commands in a bash shell in login mode so that
 # conda/mamba shell hooks will work. This also allows images derived from
